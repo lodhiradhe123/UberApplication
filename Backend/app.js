@@ -4,7 +4,7 @@ const cors = require('cors');
 const app = express();
 
   app.get('/', (req, res)=>{
-    res.send('Hello, World!');
+    res.send('Hello, World! from app.js');
   })
 
   module.exports =app;
